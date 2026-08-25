@@ -1,0 +1,7 @@
+# Git attributes for the project
+* text=auto
+*.kt text diff=kotlin
+*.xml text diff=xml
+*.json text diff=json
+*.gradle text diff=gradle
+*.properties text diff=properties

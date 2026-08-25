@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/api_key_title">
+        <EditTextPreference
+            android:key="api_endpoint"
+            android:title="@string/api_endpoint_label"
+            android:defaultValue="https://api.openai.com/v1/chat/completions" />
+        <EditTextPreference
+            android:key="api_key"
+            android:title="@string/api_key_label"
+            android:inputType="textPassword" />
+        <EditTextPreference
+            android:key="api_model"
+            android:title="@string/api_model_label"
+            android:defaultValue="gpt-3.5-turbo" />
+    </PreferenceCategory>
+</PreferenceScreen>
